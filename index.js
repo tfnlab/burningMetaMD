@@ -24,8 +24,8 @@ app.get('/api/token/:token_id', function(req, res) {
   const data = {
     'name': tokenId,
     'attributes': {
-      'Camp Size': person.size,
-      'Row': person.row,
+      'Camp Site Size': person.size,
+      'Camp Site Row': person.row,
       'Section': person.time
     },
     'image': `${person.imgurl}`
